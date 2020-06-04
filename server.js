@@ -1,19 +1,9 @@
-import express from 'express';
-import routes from './routes/routes';
+const express = require('express');
 
-const nunjucks = require('nunjucks');
+const routes = require('./routes/routes');
 
 const server = express();
-
-server.use(express.static('public'));
-
-server.set('view engine', 'njk');
-
-nunjucks.configure('views', {
-  express: server,
-  autoescape: false,
-  noCache: true,
-});
+server.use(routes);
 
 server.listen(5000, function () {
   console.log('server is running');
