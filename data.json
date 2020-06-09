@@ -1,0 +1,22 @@
+{
+  "instructors": [
+    {
+      "avatar_url": "http://google.commm",
+      "dob": "1111-11-11",
+      "duties": "crosfit",
+      "gender": "male",
+      "instructor": "antonio22",
+      "created_at": "2020-06-09T12:08:24.953Z",
+      "id": 1
+    },
+    {
+      "avatar_url": "http://google.commm",
+      "dob": "1111-11-11",
+      "duties": "crosfit",
+      "gender": "male",
+      "instructor": "antonio22s",
+      "created_at": "2020-06-09T12:08:33.897Z",
+      "id": 2
+    }
+  ]
+}
