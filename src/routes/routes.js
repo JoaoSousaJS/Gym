@@ -12,6 +12,10 @@ routes.get('/instructors', function (req, res) {
   return res.send('instructores');
 });
 
+routes.get('/instructors/:id', InstructionController.show);
+
 routes.post('/instructors', InstructionController.store);
+
+routes.put('/instructors/:id', InstructionController.edit);
 
 module.exports = routes;
